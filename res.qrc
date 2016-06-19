@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="ground.png">image/GROUND.png</file>
+        <file alias="bird.png">image/Normal_Bird_1.png</file>
+        <file>../../../Pictures/Saved Pictures/angry/1372841124567342035.png</file>
+        <file>image/1372841124567342035.png</file>
+        <file>image/stone.png</file>
+        <file>image/stone1.png</file>
+        <file>image/55.png</file>
+        <file>image/1450160510324.png</file>
+        <file>image/ABMovie_Bomb_Flying.png</file>
+        <file>image/angry-bird-clip-art-angry-birds-space-orange-bird.png</file>
+        <file>image/images (1)651.png</file>
+        <file>image/778654.png</file>
+    </qresource>
+</RCC>
