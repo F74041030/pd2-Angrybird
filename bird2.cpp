@@ -5,5 +5,5 @@ bird2::bird2(float x, float y, float radius, QTimer *timer, QPixmap pixmap, b2Wo
 
 }
 void bird2::many(){
-g_body->SetLinearVelocity(b2Vec2(0,0));
+g_body->SetLinearVelocity(b2Vec2(100,0));
 }

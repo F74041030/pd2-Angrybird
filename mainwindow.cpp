@@ -198,7 +198,7 @@ bool MainWindow::eventFilter(QObject *, QEvent *event)
             birdlist[b]->g_body->SetActive(true);
 
            if(b==1)
-               {birdlist[b]->setLinearVelocity(b2Vec2(10*xn,10*yn));}
+               {birdlist[b]->setLinearVelocity(b2Vec2(12*xn,4*yn/3));}
            if(b==3)
            {birdlist[b]->setLinearVelocity(b2Vec2(0,0));}
 
@@ -236,7 +236,7 @@ void MainWindow::New()
     itemList.clear();
     int i=0;
     turn=0;
-    b=0;
+
     randlist.push_back(1);
     randlist.push_back(2);
     randlist.push_back(3);
@@ -344,7 +344,7 @@ void MainWindow::New()
 
     }
 
-
+    b=0;
     // Timer
     connect(&timer,SIGNAL(timeout()),this,SLOT(tick()));
     connect(this,SIGNAL(quitGame()),this,SLOT(QUITSLOT()));
